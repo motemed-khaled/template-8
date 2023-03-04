@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/all.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400;1,700;1,800&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <!-- start scroll bar -->
+    <div class="scroll-bar"></div>
+    <!-- end scroll bar -->
+    <!-- start option box -->
+    <div class="option-box">
+        <div class="option ">
+            <div class="color-option">
+                <h3>Colors</h3>
+                <ul>
+                    <li class="active main" data-color="#03a9f4"></li>
+                    <li data-color="#ff9800"></li>
+                    <li data-color="#e91e63"></li>
+                    <li data-color="#4caf50"></li>
+                </ul>
+            </div>
+            <div class="background-option">
+                <h3> Background Option</h3>
+                <div>
+                    <span class="yes active">yes</span>
+                    <span class="no">No</span>
+                </div>
+            </div>
+            <div class="bullets-option">
+                <h3>Bullets Option</h3>
+                <div>
+                    <span class="yes active">Enable</span>
+                    <span class="no">Disapled</span>
+                </div>
+            </div>
+            <div class="scrolltop-option">
+                <h3>scrolltop Option</h3>
+                <div>
+                    <span class="yes active">Enable</span>
+                    <span class="no">Disapled</span>
+                </div>
+            </div>
+            <div class="reset">
+                <span>Rest All Setting</span>
+            </div>
+        </div>
+        <div class="icon">
+            <i class="fa-solid fa-gear"></i>
+        </div>
+    </div>
+    <!-- end option box -->
+    <!-- start bullets -->
+    <div class="bullets">
+        <div class="bullet" data-section=".about-us"><div class="tooltip">About Us</div></div>
+        <div class="bullet" data-section=".our-skills"><div class="tooltip">Our Skills</div></div>
+        <div class="bullet" data-section=".gallary"><div class="tooltip">Gallary</div></div>
+        <div class="bullet" data-section=".timeline"><div class="tooltip">Time Line</div></div>
+        <div class="bullet" data-section=".our-feature"><div class="tooltip">Our Feature</div></div>
+        <div class="bullet" data-section=".testmonials"><div class="tooltip">Testmonials</div></div>
+        <div class="bullet" data-section=".contact-us"><div class="tooltip">Contact Us</div></div>
+    </div>
+    <!-- end bullets -->
+    <!-- start landing page -->
+    <div class="landing-page">
+        <div class="overlay"></div>
+        <!-- start header -->
+        <div class="header">
+            <div class="logo">Metoo</div>
+            <i class="fa-solid fa-bars toggle-menu"></i>
+            <ul class="links">
+                <li><a  href="#" data-section=".about-us">About Us</a></li>
+                <li><a href="#" data-section=".our-skills">Our Skills</a></li>
+                <li><a href="#" data-section=".gallary">Gallary</a></li>
+                <li><a href="#" data-section=".timeline">Time Line</a></li>
+                <li><a href="#" data-section=".our-feature">Our Feature</a></li>
+                <li><a href="#" data-section=".testmonials">Testmonials</a></li>
+                <li><a href="#" data-section=".contact-us">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- end header -->
+        <div data-class=".timeline" class="arrow">
+            <i class="fa-solid fa-arrow-down"></i>
+        </div>
+    </div>
+    <!-- end landing page -->
+    <!-- start about us -->
+    <div class="about-us">
+       <div class="container">
+        <div class="tool">
+            <h1>About Us</h1>
+        </div>
+        <div>
+            <div class="content">
+                <div class="info">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque expedita saepe, a blanditiis voluptate consequatur nihil quidem molestiae soluta maiores vel tempora dignissimos rerum dolorem, quibusdam, necessitatibus recusandae fuga sunt.</p>
+                    <span>See More</span>
+                </div>
+                <img src="image/aboutus.jpg" alt="">
+            </div>
+        </div>
+       </div>
+    </div>
+    <!-- end about us -->
+    <!-- strat our skills -->
+    <div class="our-skills">
+        <div class="over-lay"></div>
+        <div class="container">
+            <div class="tool">
+                <h1>Our Skills</h1>
+            </div>
+            <div class="box">
+                <div class="skill">
+                    <div class="progress-name">Power</div>
+                    <div class="progress">
+                        <span data-width="80%"></span>
+                    </div>
+                    <span class="precent"></span>
+                </div>
+                <div class="skill">
+                    <div class="progress-name">Speed</div>
+                    <div class="progress">
+                        <span data-width="90%"></span>
+                    </div>
+                    <span class="precent"></span>
+                </div>
+                <div class="skill">
+                    <div class="progress-name">Safety</div>
+                    <div class="progress">
+                        <span data-width="95%"></span>
+                    </div>
+                    <span class="precent"></span>
+                </div>
+                <div class="skill">
+                    <div class="progress-name">Electric</div>
+                    <div class="progress">
+                        <span data-width="75%"></span>
+                    </div>
+                    <span class="precent"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end our skills -->
+    <!-- start our gallary -->
+    <div class="gallary">
+        <div class="container">
+            <div class="tool">
+                <h1>Gallary</h1>
+            </div>
+            <div class="box">
+                <div class="image"><img src="image/gallary/1.jpg" alt="mercedes classic cars"></div>
+                <div class="image"><img src="image/gallary/2.jpg" alt="mercedes classic cars"></div>
+                <div class="image"><img src="image/gallary/3.webp" alt="mercedes classic cars"></div>
+                <div class="image"><img src="image/gallary/4.jpg" alt="mercedes classic cars"></div>
+                <div class="image"><img src="image/gallary/5.jpg" alt="mercedes classic cars"></div>
+                <div class="image"><img src="image/gallary/6.jpg" alt="mercedes classic cars"></div>
+                <div class="image"><img src="image/gallary/7.jpg" alt="mercedes classic cars"></div>
+                <div class="image"><img src="image/gallary/8.jpg" alt="mercedes classic cars"></div>
+            </div>
+        </div>
+    </div>
+    <!-- end our gallary -->
+    <!-- start timeline -->
+    <div class="timeline">
+        <div class="over-lay"></div>
+        <div class="container">
+            <div class="tool"><h1>Time Line</h1></div>
+            <div class="timeline-content">
+                <div class="year">2018</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque beatae sed veritatis molestiae delectus sint rerum id nulla ad voluptate, excepturi error, natus, nisi at animi necessitatibus enim perferendis culpa.</p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque beatae sed veritatis molestiae delectus sint rerum id nulla ad voluptate, excepturi error, natus, nisi at animi necessitatibus enim perferendis culpa.</p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="year">2017</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque beatae sed veritatis molestiae delectus sint rerum id nulla ad voluptate, excepturi error, natus, nisi at animi necessitatibus enim perferendis culpa.</p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque beatae sed veritatis molestiae delectus sint rerum id nulla ad voluptate, excepturi error, natus, nisi at animi necessitatibus enim perferendis culpa.</p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque beatae sed veritatis molestiae delectus sint rerum id nulla ad voluptate, excepturi error, natus, nisi at animi necessitatibus enim perferendis culpa.</p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    <!-- end timeline -->
+    <!-- start ourfeature -->
+    <div class="our-feature">
+        <div class="over-lay"></div>
+        <div class="container">
+            <div class="tool"><h1>Our Feature</h1></div>
+            <div class="content">
+                <div class="box">
+                    <div class="icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                    <div class="info">
+                        <h3>Develop</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas porro nihil molestiae repellat fugiat expedita.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa-solid fa-wrench"></i></div>
+                    <div class="info">
+                        <h3>Develop</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas porro nihil molestiae repellat fugiat expedita.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa-solid fa-hammer"></i></div>
+                    <div class="info">
+                        <h3>Develop</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas porro nihil molestiae repellat fugiat expedita.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa-solid fa-fire"></i></div>
+                    <div class="info">
+                        <h3>Develop</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas porro nihil molestiae repellat fugiat expedita.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa-solid fa-gear"></i></div>
+                    <div class="info">
+                        <h3>Develop</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas porro nihil molestiae repellat fugiat expedita.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa-solid fa-toolbox"></i></div>
+                    <div class="info">
+                        <h3>Develop</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas porro nihil molestiae repellat fugiat expedita.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end ourfeature -->
+    <!-- start testmonial -->
+    <div class="testmonials">
+        <div class="container">
+            <div class="tool"><h1>Testmonials</h1></div>
+            <div class="content">
+                <div class="box">
+                    <div class="info"><p>Iam very Happy With The Product Its Amazing and Recieve It Very Fast And The Price Was Amazing</p></div>
+                    <div class="cont">
+                        <div class="image"><img src="image/test.jpg" alt=""></div>
+                        <div class="info">
+                            <h3>Motemed Khaled</h3>
+                            <p>Ceo Al Company</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="info"><p>Iam very Happy With The Product Its Amazing and Recieve It Very Fast And The Price Was Amazing</p></div>
+                    <div class="cont">
+                        <div class="image"><img src="image/test.jpg" alt=""></div>
+                        <div class="info">
+                            <h3>Motemed Khaled</h3>
+                            <p>Ceo Al Company</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="info"><p>Iam very Happy With The Product Its Amazing and Recieve It Very Fast And The Price Was Amazing</p></div>
+                    <div class="cont">
+                        <div class="image"><img src="image/test.jpg" alt=""></div>
+                        <div class="test">
+                            <h3>Motemed Khaled</h3>
+                            <p>Ceo Al Company</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end testmonial -->
+    <!-- start contact us -->
+    <div class="contact-us">
+        <div class="over-lay"></div>
+        <div class="container">
+            <div class="tool"><h1>Contact Us</h1></div>
+            <form action="">
+                <div class="left">
+                    <input type="text" name="name" placeholder="Your Name">
+                    <input type="text" name="phone" placeholder="Your Phone">
+                    <input type="email" name="email" placeholder="Your Email">
+                    <input type="text" name="subject" placeholder="Your Subject">
+                </div>
+                <div class="right">
+                    <textarea name="textarea" placeholder="Your Message" id="" ></textarea>
+                    <button type="submit">Send</button>
+                </div>
+            </form>
+            </div>
+        </div>
+    <!-- end contact us -->
+    <!-- start header -->
+    <div class="footer">
+        &copy; 2023  <span>Metoo</span>
+    </div>
+    <!-- end header -->
+    <!-- start scroll to top  -->
+    <div class="scroll-top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+    <!-- end scroll to top  -->
+    <script src="js/main.js"></script>
+</body>
+</html>
